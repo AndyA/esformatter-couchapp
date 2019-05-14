@@ -1,0 +1,49 @@
+{
+   "author" : "Andy Armstrong <andy@hexten.net>",
+   "dependencies" : {},
+   "description" : "esformatter plugin to handle couchapp javascript idioms",
+   "devDependencies" : {
+      "chai" : "*",
+      "esformatter" : "^0.10.0",
+      "mocha" : "^2.1.0"
+   },
+   "esformatter" : {
+      "esformatter" : {
+         "allowShebang" : true
+      },
+      "indent" : {
+         "alignComments" : true,
+         "value" : "  "
+      },
+      "lineBreak" : {
+         "value" : "\n"
+      },
+      "root" : true,
+      "whiteSpace" : {
+         "removeTrailing" : 1,
+         "value" : " "
+      }
+   },
+   "files" : [
+      "index.js"
+   ],
+   "homepage" : "https://github.com/AndyA/esformatter-couchapp#readme",
+   "keywords" : [
+      "esformatter-plugin",
+      "esformatter",
+      "couchapp",
+      "couchdb"
+   ],
+   "license" : "MIT",
+   "main" : "index.js",
+   "name" : "esformatter-couchapp",
+   "repository" : {
+      "type" : "git",
+      "url" : "git+https://github.com/AndyA/esformatter-couchapp.git"
+   },
+   "scripts" : {
+      "test" : "mocha -R spec test",
+      "watch" : "mocha -R spec --watch test"
+   },
+   "version" : "1.0.0"
+}
