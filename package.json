@@ -3,9 +3,9 @@
    "dependencies" : {},
    "description" : "esformatter plugin to handle couchapp javascript idioms",
    "devDependencies" : {
-      "chai" : "*",
+      "chai" : "^4.2.0",
       "esformatter" : "^0.10.0",
-      "mocha" : "^2.1.0"
+      "mocha" : "^6.1.4"
    },
    "esformatter" : {
       "esformatter" : {
@@ -45,5 +45,5 @@
       "test" : "mocha -R spec test",
       "watch" : "mocha -R spec --watch test"
    },
-   "version" : "1.0.0"
+   "version" : "1.0.1"
 }
